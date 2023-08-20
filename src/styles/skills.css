@@ -1,0 +1,235 @@
+.skills-container {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+
+  
+  .skills {
+  
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex: 2;
+    margin: 1rem;
+  }
+
+  .skills h1{
+    text-align: center;
+    padding: 3rem 5rem;
+    color: #081b29;
+  }
+  
+  .skills-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .skills-ul {
+    display: flex;
+    margin: 3.2rem 3.2rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width: 100%;
+  }
+  
+  .skills-ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #081b29;
+    padding: 1.4rem;
+    margin: 0.5rem 0.2rem ;
+    width: 10rem; /* Adjust the width as needed */
+    height: 10rem; /* Adjust the height as needed */
+    border-radius: 10px;
+    border: 2px solid #081b29; /* Apply the default border color */
+  transition: border-color 0.3s, transform 0.3s; /* Add transitions for smooth effect */
+  }
+
+  .skills-ul li:hover {
+    border-color: #00abf0; /* Apply the desired border color on hover */
+    transform: scale(1.1);
+  }
+
+  .skills-ul li img {
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    width: 80px; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+  }
+  
+  .skills-ul li p {
+    margin: 0;
+  }
+
+  .paragraph {
+    margin-bottom: 20px;
+    color:#081b29
+  }
+
+  .resume{
+    
+    
+    background-color: white;
+    width: 50rem;
+    flex: 1;
+    margin: 2rem;
+    color: #081b29;
+    padding: 1rem;
+  }
+ 
+  .soft-skills{
+    background-color: white;
+    width: 50rem;
+    flex: 1;
+    margin: 2rem;
+    color: #081b29;
+    padding: 1rem;
+  }
+
+  .prospect{
+    background-color: white;
+    width: 50rem;
+    flex: 1;
+    margin: 2rem;
+    color: #081b29;
+    padding: 1rem;
+  }
+
+
+  .skills-sidebar h1{
+    text-align: center;
+    padding: 3rem 5rem;
+    color: #081b29;
+  }
+
+  .presentation-profile {
+    white-space: pre-wrap;
+  }
+
+  .toggle-resume,
+.toggle-softSkills,
+.toggle-prospect {
+  position: relative;
+  background-color: #081b29;
+  transition: height 0.3s ease;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.toggle-resume::after,
+.toggle-softSkills::after,
+.toggle-prospect::after {
+  content: url(../../icon.png);
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  filter: brightness(0) invert(1);
+}
+
+
+  .soft-skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  
+
+
+
+
+
+  @media (min-width: 375px) and (max-width: 768px){
+    .toggle-resume::after,
+    .toggle-softSkills::after,
+    .toggle-prospect::after {
+      left: 228px;
+    }
+
+    .skills-sidebar{
+     
+      width:90%;
+    }
+
+    .presentation-profile {
+      max-height: none;
+      overflow: visible;
+    }
+    .skills-container {
+      /* width: fit-content; */
+
+    /* height: fit-content;
+    display: flex; */
+    flex-direction: column;
+    align-items: center;
+      }
+    
+
+      .soft-skills,
+      .prospect,
+      .resume
+      {
+        width: 90%;
+      }
+      
+      .skills {
+        background: white;
+      }
+      
+     
+      
+      .skills-ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        margin: 1.6rem;
+        /* flex-wrap: wrap;
+        list-style-type: none;
+        width: 100%; */
+      }
+      
+      .skills-ul li {
+        margin: 0.5rem;
+    width: 100%;
+    height: auto;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #081b29;
+        margin: 0.5rem;
+        /* width: 92%; */
+        height: 4rem;
+    }
+
+    .skills-ul li img {
+     
+      width: 38px; /* Adjust the width as needed */
+      height: 38px; /* Adjust the height as needed */
+    }
+
+
+
+  
+      
+  }
+
+  @media (min-width: 769px) and (max-width: 1440px){
+    .skills-ul li {
+      width:8rem;
+    }
+  }

@@ -1,0 +1,242 @@
+/* about.css */
+
+.container-about {
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+    height: 90vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-about {
+  
+    position: relative;
+    height: 450px;
+    width: 900px;
+    margin: 200px auto;
+    background-color: #FFF;
+    box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+  }
+  
+  .thumbnail {
+    float: left;
+    position: relative;
+    left: 30px;
+    top: -30px;
+    height: 260px;
+    width: 430px;
+    box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.75);
+    overflow: hidden;
+  }
+  
+  .left-image {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: auto;
+    width: 100%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .right {
+    margin-left: 507px;
+    margin-right: 49px;
+}
+  
+  .heading {
+    padding-top: 15px;
+    font-size: 1.3rem;
+    color: #4B4B4B;
+  }
+  
+  .author {
+    background-color: #9ECAFF;
+    height: 30px;
+    width: 110px;
+    border-radius: 20px;
+  }
+  
+
+
+  
+  .separator {
+    margin-top: 10px;
+    border: 1px solid #C3C3C3;
+  }
+  
+  .paragraph-about {
+    text-align: justify;
+    padding-top: 10px;
+    font-size: 0.95rem;
+    line-height: 150%;
+    color: #4B4B4B;
+  }
+  
+  .ul-about {
+    margin-left: -29rem;
+    left: 23;
+    /* margin-left: 250px; */
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+}
+
+.li-about{
+    display: inline;
+	list-style: none;
+	padding-right: 40px;
+	color : #7B7B7B;
+}
+	
+
+/* Floating action button */
+.fab{
+	position : absolute;
+	right : 50px;
+	bottom : -40px;
+	box-sizing: border-box;
+	padding-top: 18px;
+	background-color : #1875D0;
+	width : 80px;
+	height : 80px;
+	color : white;
+	text-align : center;
+	border-radius : 50%;
+	-webkit-box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.75);
+}
+
+.btn-cv-container{
+  display: block;
+  padding: 1rem;
+  
+}
+
+.btn-cv {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 150px;
+  height: 100%;
+  background-color: #00abf0;
+  border: 2px solid #00abf0;
+  border-radius: 8px;
+  font-size: 19px;
+  color: #081b29;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.btn-cv:hover {
+  color: #00abf0;
+}
+
+.btn-cv::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #081b29;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.btn-cv:hover::before {
+  width: 100%;
+}
+
+
+@media (min-width: 375px) and (max-width: 768px) {
+
+  .container-about {
+    height: fit-content;
+    padding-top: 2rem;
+    padding-bottom: 14rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .card-about {
+    width: 100%;
+    margin: 50px auto;
+    box-shadow: none;
+  }
+  
+  .thumbnail {
+    float: none;
+    position: relative;
+    left: auto;
+    top: auto;
+    height: auto;
+  
+    width: 100%;
+    box-shadow: none;
+    overflow: hidden;
+  }
+  
+  .left-image {
+    position: static;
+    transform: none;
+  
+  }
+  
+  .right {
+    margin: 20px;
+  }
+  
+  .heading {
+    padding-top: 15px;
+    font-size: 1.2rem;
+  }
+  
+  .separator {
+    margin-top: 10px;
+    border: 1px solid #C3C3C3;
+  }
+  
+  .paragraph-about {
+    font-size: 0.9rem;
+    line-height: 130%;
+  }
+  
+  .ul-about {
+    margin-left: -29rem;
+    left: 23;
+  }
+  
+  .li-about {
+    padding-right: 20px;
+  }
+  
+  .fab {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1400px) {
+    .card-about{
+      width: 62rem;
+      margin: 50px auto;
+      box-shadow: none;
+    }
+    .ul-about{
+      margin-left: 0;
+    }
+   
+    
+}
