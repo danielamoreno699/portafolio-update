@@ -12,6 +12,7 @@ const Cards = ({ setIsOpen }) => {
 
   return (
     <>
+    <section id="projects">
     <div className='projects'>
     <h2 className='h2-card'>take a look at my projects</h2>
     <div className="card-container">
@@ -26,6 +27,7 @@ const Cards = ({ setIsOpen }) => {
 
 
     </div>
+    </section>
    
     </>
     

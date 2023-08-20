@@ -10,10 +10,6 @@ const Skills = ({setIsOpen, pdfPath}) => {
   const [isContentVisibleProspects, setIsContentVisibleProspects] = useState(false);
 
   
-  const handleSeeMore = () => {
-    console.log('clik')
-    setIsOpen(true);
-  };
 
   const toggleResume = () => {
     setIsContentVisible(!isContentVisible);
@@ -29,6 +25,7 @@ const Skills = ({setIsOpen, pdfPath}) => {
 
   return (
     <>
+    <section id="about-skills">
       <div className="skills-container">
 
         <div className="skills-sidebar">
@@ -96,6 +93,7 @@ const Skills = ({setIsOpen, pdfPath}) => {
           </div>
         </div>
       </div>
+      </section>
     </>
   );
 };

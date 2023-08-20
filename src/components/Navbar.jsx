@@ -1,7 +1,7 @@
 import '../styles/header.css'
 import  { useState } from 'react';
 import { useEffect } from 'react';
-import Aboutme from './aboutme';
+
 
 
  const Navbar = () => {
@@ -27,6 +27,7 @@ import Aboutme from './aboutme';
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
     section.scrollIntoView({ behavior: 'smooth' });
+    closeMobileMenu();
  
   };
 
@@ -42,13 +43,13 @@ import Aboutme from './aboutme';
       </div>
 
       <nav className="navbar">
-      <a href="#" className="active">
+           <a href="#" className="active">
               Home
             </a>
-            <a href="#about-me" onClick={() => scrollToSection('about-me')}>
+            <a href="#about-skills" onClick={() => scrollToSection('about-skills')}>
             About
           </a>
-            <a href="#">Portfolio</a>
+            <a href="#projects" onClick={() => scrollToSection('projects')}>Portfolio</a>
             <a href="#">Contact me</a>
            
       </nav>
@@ -61,10 +62,11 @@ import Aboutme from './aboutme';
             <a href="#" className="active">
               Home
             </a>
-            <a href="#" onClick={() => scrollToSection('about-me')}>
+            <a href="#about-skills" onClick={() => scrollToSection('about-skills')}>
+             
             About 
           </a>
-            <a href="#">Portfolio</a>
+          <a href="#projects" onClick={() => scrollToSection('projects')}>Portfolio</a>
             <a href="#">Contact me</a>
           </div>
         </div>

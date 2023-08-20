@@ -5,6 +5,10 @@ import react from '../asset/images/technologies/react.png';
 import redux from '../asset/images/technologies/redux2.png';
 import node from '../asset/images/technologies/nodejs.png';
 import angular from '../asset/images/technologies/angular.png';
+import ruby from '../asset/images/technologies/ruby.png';
+import rails from '../asset/images/technologies/rails.png';
+import psql from '../asset/images/technologies/psql.png';
+import python from '../asset/images/technologies/python.png';
 
 
 const Stacks = [
@@ -43,6 +47,27 @@ const Stacks = [
       name: "angular",
       img: angular,
       color: "pink",
+    },
+    {
+      name: "ruby",
+      img: ruby,
+      color: "white",
+
+    },
+    {
+      name: "rails",
+      img: rails,
+      color: "white",
+    },
+    {
+      name: "psql",
+      img: psql,
+      color: "white",
+    },
+    {
+      name: "python",
+      img: python,
+      color: "white",
     },
   ];
   

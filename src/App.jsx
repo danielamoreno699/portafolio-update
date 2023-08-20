@@ -6,6 +6,7 @@ import Cards from './components/Cards'
 import Modal from './components/Popup'
 import Skills from './components/skills';
 import Aboutme from './components/aboutme';
+import HighProfile from './components/HighProfile';
 
 
 
@@ -23,8 +24,8 @@ function App() {
         <Hero/>
         <Aboutme setIsOpen={setIsOpen}/>
         {isOpen && <Modal setIsOpen={setIsOpen} pdfPath={pdfPath}/>}
+        <HighProfile/>
         <Cards  />
-        
         <Skills/>
         
 
