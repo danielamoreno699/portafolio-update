@@ -224,7 +224,8 @@
     position: relative;
     right: auto;
     bottom: auto;
-    margin-top: 20px;
+    width: 40px;
+    height: 41px;
   }
 }
 

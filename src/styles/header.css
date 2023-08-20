@@ -41,11 +41,11 @@
   .header {
     padding: 1rem 3%;
   }
-
+  
   .navbar {
     display: none;
   }
-
+  
   .hamburger-icon {
     display: flex;
     flex-direction: column;
@@ -55,30 +55,68 @@
     cursor: pointer;
     color: white;
   }
-
+  
   .bar {
     width: 100%;
     height: 3px;
     background-color: #f7f0f0;
   }
-}
-.mobile-menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(5px);
-  display: none;
-  z-index: 999;
-  overflow: hidden;
-  transition: transform 0.3s ease;
-  transform: translateX(-100%);
-}
-/* Move the .navbar-mobile.open rule outside of the media query */
-.navbar-mobile.open  {
-  transform: translateX(0); /* Slide in the mobile menu from the left */
-}
+  
+  .navbar-mobile.open {
+    display: block;
+  }
+  
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    z-index: 999;
+    overflow: hidden;
+    opacity: 0; /* Start with the menu hidden */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Add transition for both opacity and transform */
+    transform: translateX(-100%); /* Start with the menu off-screen */
+  }
+  
+  .navbar-mobile.open .mobile-menu {
+    display: block;
+    opacity: 1; /* Show the menu with a fade-in effect */
+    transform: translateX(0); /* Slide in the mobile menu from the left */
+  }
+  
+  .close-nav {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0 2rem;
+  }
 
+  .mobile-menu .menu-items {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 5rem 2rem;
+  }
+
+  .mobile-menu .menu-items a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    transition: 0.3s;
+  }
+
+  .mobile-menu .menu-items a:hover {
+    color: #00abf0;
+  }
+  
+
+}
 

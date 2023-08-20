@@ -1,5 +1,6 @@
 import '../styles/header.css'
 import  { useState } from 'react';
+import { useEffect } from 'react';
 
  const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -7,6 +8,14 @@ import  { useState } from 'react';
     console.log("Toggle mobile menu");
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
+
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = 'hidden'; 
+    } else {
+      document.body.style.overflow = ''; 
+    }
+  }, [isMobileMenuOpen]);
 
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
@@ -33,7 +42,7 @@ import  { useState } from 'react';
 
       <nav className={`navbar-mobile ${isMobileMenuOpen ? 'open' : ''}`}>
         <div className="mobile-menu">
-          <span className="close" onClick={closeMobileMenu}>&times;</span>
+          <span className="close-nav" onClick={closeMobileMenu}>&times;</span>
           <div className="menu-items">
             <a href="#" className="active">
               Home
