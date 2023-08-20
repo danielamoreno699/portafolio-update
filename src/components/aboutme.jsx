@@ -14,6 +14,8 @@ const Aboutme = ({setIsOpen}) => {
   }
 
     return(
+
+      <section id="about-me">
         <div className="container-about">
             <div className="card-about">
             <div className="thumbnail">
@@ -60,6 +62,7 @@ const Aboutme = ({setIsOpen}) => {
             </div>
 
         </div>
+        </section>
     )
 
 }

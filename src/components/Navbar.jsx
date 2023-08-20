@@ -1,6 +1,8 @@
 import '../styles/header.css'
 import  { useState } from 'react';
 import { useEffect } from 'react';
+import Aboutme from './aboutme';
+
 
  const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -20,6 +22,15 @@ import { useEffect } from 'react';
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
   };
+
+
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    section.scrollIntoView({ behavior: 'smooth' });
+ 
+  };
+
+
   return (
     <header className="header">
         <a href="#" className="logo">Daniela</a>
@@ -34,9 +45,12 @@ import { useEffect } from 'react';
       <a href="#" className="active">
               Home
             </a>
-            <a href="#">About</a>
+            <a href="#about-me" onClick={() => scrollToSection('about-me')}>
+            About
+          </a>
             <a href="#">Portfolio</a>
             <a href="#">Contact me</a>
+           
       </nav>
   
 
@@ -47,12 +61,15 @@ import { useEffect } from 'react';
             <a href="#" className="active">
               Home
             </a>
-            <a href="#">About</a>
+            <a href="#" onClick={() => scrollToSection('about-me')}>
+            About 
+          </a>
             <a href="#">Portfolio</a>
             <a href="#">Contact me</a>
           </div>
         </div>
       </nav>
+  
 
     </header>
   )
