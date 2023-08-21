@@ -4,13 +4,15 @@ import Stacks from '../helper/stacks';
 import paragraphsAbout from '../helper/aboutme';
 import softSkills from '../helper/softSkills';
 import prospect from '../helper/prospect';
+import projectsTop from '../helper/topproj';
 
 const initialState = {
     data: projectDetailList,  
     stack: Stacks,
     pAbout: paragraphsAbout,
     softSkills: softSkills, 
-    prospect: prospect
+    prospect: prospect,
+    top: projectsTop
   };
 
    const cardsSlice = createSlice({
@@ -22,6 +24,9 @@ const initialState = {
         },
         addStack: (state, action) => {
             state.stack.push(action.payload)
+        },
+        addTop: (state, action) => {
+            state.top.push(action.payload)
         }
     }
 

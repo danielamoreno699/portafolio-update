@@ -1,9 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
 import cardsReducer from './CardsSlice';
+import topReducer from './TopSlice';
 
 const store = configureStore({
     reducer:{
-        cards: cardsReducer
+        cards: cardsReducer,
+        top: topReducer
     }
 
 })
