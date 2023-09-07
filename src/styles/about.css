@@ -194,6 +194,7 @@
   
   .right {
     margin: 20px;
+    padding: 2rem;
   }
   
   .heading {
@@ -229,11 +230,30 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 800px){
+  .ul-about {
+    margin-left: 0rem;
+    left: 23;
+  }
+
+  .right{
+    background-color: white;
+  }
+
+  .left-image {
+    position: static;
+    transform: none;
+    width: 29rem;
+    height: 18rem;
+}
+}
+
 @media (min-width: 769px) and (max-width: 1400px) {
     .card-about{
-      width: 62rem;
-      margin: 50px auto;
+      /* width: 62rem; */
+      /* margin: 50px auto; */
       box-shadow: none;
+      background-color: white;
     }
     .ul-about{
       margin-left: 0;
