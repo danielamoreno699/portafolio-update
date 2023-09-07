@@ -7,6 +7,7 @@ import Modal from './components/Popup'
 import Skills from './components/skills';
 import Aboutme from './components/aboutme';
 import HighProfile from './components/HighProfile';
+import Contact from './components/Contact';
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <HighProfile/>
         <Cards  />
         <Skills/>
+        <Contact/>
         
 
  

@@ -26,6 +26,9 @@ const HighProfile = () => {
                 <Card.Text className='profile-text'>
                   {project.description}
                 </Card.Text>
+
+            <div className='lang-container'>
+
                 <div className="languages">
             {project.technologies.map((technology, index) => (
               <li className="li-lang" key={index}>
@@ -44,6 +47,7 @@ const HighProfile = () => {
               See GitRepo
               <BsGithub className="git-icon" />
             </button>
+          </div>
           </div>
               </Card.Body>
             </Card>
