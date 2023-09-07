@@ -91,7 +91,6 @@
 }
 	
 
-/* Floating action button */
 .fab{
 	position : absolute;
 	right : 50px;
@@ -99,8 +98,8 @@
 	box-sizing: border-box;
 	padding-top: 18px;
 	background-color : #1875D0;
-	width : 80px;
-	height : 80px;
+  width: 77px;
+  height: 64px;
 	color : white;
 	text-align : center;
 	border-radius : 50%;
@@ -194,7 +193,7 @@
   
   .right {
     margin: 20px;
-    padding: 2rem;
+    
   }
   
   .heading {
