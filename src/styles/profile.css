@@ -62,8 +62,9 @@
   }
   
   .card-cont {
-    width: 60%;
-    height: 20rem;
+    
+    width: 70%;
+    height: 25rem;
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -101,11 +102,24 @@
     /* margin-top: 0; */
   }
 
+  .languages{
+    margin: 1rem;
+    gap: 1rem;
+    padding: 0;
+  }
 
   .profile-text{
     color:black;
-    padding-bottom: 1rem;
+    padding-top: 1rem;
+    /* padding-bottom: 1rem; */
   }
+
+  .btns {
+    gap: 1rem;
+    display: flex;
+    justify-content: initial;
+    width: 100%;
+}
   
 
   @media (min-width: 375px) and (max-width: 767px){
