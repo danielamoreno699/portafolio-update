@@ -27,7 +27,7 @@ const Cards = () => {
           navigation
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
-          spaceBetween={50}
+          spaceBetween={1}
           slidesPerView={3}
           breakpoints={{
             0: {
