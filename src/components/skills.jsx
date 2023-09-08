@@ -26,10 +26,11 @@ const Skills = ({setIsOpen, pdfPath}) => {
   return (
     <>
     <section id="about-skills">
+    <h2 className="h2-card">take a look at my projects</h2>
       <div className="skills-container">
-
+    
         <div className="skills-sidebar">
-          <h1>ABOUT</h1>
+          {/* <h3>About</h3> */}
         <div className="resume">
           <h2 className='about-me'>About Me</h2>
           <hr
@@ -79,7 +80,7 @@ const Skills = ({setIsOpen, pdfPath}) => {
 
 
         <div className="skills">
-          <h1>Skills</h1>
+          {/* <h1>Skills</h1> */}
         
           <div className="skills-content">
             <ul className="skills-ul">
@@ -93,6 +94,8 @@ const Skills = ({setIsOpen, pdfPath}) => {
           </div>
         </div>
       </div>
+
+     
       </section>
     </>
   );

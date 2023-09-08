@@ -1,3 +1,7 @@
+#about-skills{
+  background-color: white;
+}
+
 .skills-container {
     background-color: white;
     display: flex;
@@ -16,7 +20,7 @@
     margin: 1rem;
   }
 
-  .skills h1{
+  .skills h3{
     text-align: center;
     padding: 3rem 5rem;
     color: #081b29;
@@ -54,7 +58,7 @@
   }
 
   .skills-ul li:hover {
-    border-color: #00abf0; /* Apply the desired border color on hover */
+    border-color: #00abf0; 
     transform: scale(1.1);
   }
 

@@ -36,7 +36,13 @@ const Cards = () => {
             768: {
               slidesPerView: 2,
             },
-            992: {
+            1000: {
+              slidesPerView: 2,
+            },
+            1200:{
+              slidesPerView: 3,
+            },
+            1880: {
               slidesPerView: 4,
             },
           }}

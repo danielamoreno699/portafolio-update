@@ -1,20 +1,28 @@
+
+
 .high-profile {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+ 
   }
   
   .high-cont {
     position: relative;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     display: flex;
     flex-direction: column;
-    z-index: -1;
+    /* z-index: -1; */
   }
 
+  .card-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
   
   .mask {
@@ -23,8 +31,21 @@
     height: 100%;
     background-image: url('../asset/images/others/colorful.jpg');
     background-size: cover;
-    opacity: 0.6; 
+    opacity: 0.9; 
+    pointer-events: none;
   
+  }
+
+  .profile-title{
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    /* transition: color 0.3s; */
+  }
+
+  .profile-title:hover {
+    color: #00abf0;
+    
   }
 
   .h2-top {
@@ -36,33 +57,36 @@
      padding: 5% 0 0 0;
   }
   
-  
   .h2-top::before,
-  .h2-top::after {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    width: 100%;
-    height: 2px;
-    background-color: white;
-    transform: scaleX(0);
-    transition: transform 0.3s ease-in-out;
-  }
+.h2-top::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.h2-top::before {
+  left: 0;
+  transform-origin: left;
+}
+
+.h2-top::after {
+  right: 0;
+  transform-origin: right;
+}
+
+.h2-top:hover::before,
+.h2-top:hover::after {
+  transform: scaleX(1);
+}
+
+
   
-  .h2-top::before {
-    left: 0;
-    transform-origin: left;
-  }
-  
-  .h2-top::after {
-    right: 0;
-    transform-origin: right;
-  }
-  
-  .h2-top:hover::before,
-  .h2-top:hover::after {
-    transform: scaleX(1);
-  }
+ 
   
   .card-cont {
     
@@ -90,17 +114,11 @@
   .card-cont:nth-child(odd) {
     display: flex;
     flex-direction: row-reverse;
-    /* align-self: flex-end; */
     margin-top: 5rem;
     margin-bottom: 5rem;
 
   }
 
-  
-
-
- 
-  
   
   .card-img {
     width: 100%;
@@ -109,7 +127,8 @@
     flex: 1;
     border-radius: 20px;
   }
-  
+
+ 
   .card-body {
     display: flex;
     flex-direction: column;
@@ -123,6 +142,8 @@
     gap: 1rem;
     padding: 0;
   }
+
+ 
 
   .profile-text{
     color:white;

@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar'
-import './styles/App.css'
+
 import { useState } from 'react';
 import  Hero  from './components/Hero'
 import Cards from './components/Cards'
@@ -8,6 +8,7 @@ import Skills from './components/skills';
 import Aboutme from './components/aboutme';
 import HighProfile from './components/HighProfile';
 import Contact from './components/Contact';
+import './styles/App.css'
 
 
 
