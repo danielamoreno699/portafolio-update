@@ -11,25 +11,27 @@ import Contact from './components/Contact';
 import './styles/App.css'
 
 
-
-
-
-
+import { Routes, Route } from 'react-router-dom';
+import ProjectInfo from './components/projectInfo';
 function App() {
   const [isOpen, setIsOpen] = useState(false);
   const pdfPath = '../../cv.pdf'
 
   return (
     <>
-      
+        
         <Navbar/>
         <Hero/>
         <Aboutme setIsOpen={setIsOpen}/>
         {isOpen && <Modal setIsOpen={setIsOpen} pdfPath={pdfPath}/>}
         <HighProfile/>
+        <Routes>
+        <Route path="projectItem/:id" element={<ProjectInfo/>}/>
+        </Routes>
         <Cards  />
         <Skills/>
         <Contact/>
+      
         
 
  

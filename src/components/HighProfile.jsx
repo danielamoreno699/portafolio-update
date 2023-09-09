@@ -1,15 +1,16 @@
-
 import Card from 'react-bootstrap/Card';
 import '../styles/profile.css'; 
-
+import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 
 
 const HighProfile = () => {
+  const navigate = useNavigate();
   const { top } = useSelector((state) => state.top);
 
   const handleClick = (id) => {
+    navigate(`/projectItem/${id}`);
     console.log(id)
   }
 
