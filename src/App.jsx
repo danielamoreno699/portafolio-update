@@ -24,13 +24,15 @@ function App() {
         
         <Navbar/>
       <Routes>
-   
+
+  
         <Route path="/" element={
           <div>
             <Hero/>
             <Aboutme setIsOpen={setIsOpen}/>
             {isOpen && <Modal setIsOpen={setIsOpen} pdfPath={pdfPath}/>}
             <HighProfile/>
+            <Cards/>
             <Skills/>
             <Contact/>
           </div>

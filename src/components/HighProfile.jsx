@@ -2,16 +2,20 @@ import Card from 'react-bootstrap/Card';
 import '../styles/profile.css'; 
 import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import { useProjectData } from '../context/contextManager'; 
 
 
 
 const HighProfile = () => {
+  const { setProjectData } = useProjectData();
+
   const navigate = useNavigate();
   const { top } = useSelector((state) => state.top);
 
-  const handleClick = (id) => {
-    navigate(`/projectItem/${id}`);
-    console.log(id)
+  const handleClick = (project) => {
+    navigate(`/projectItem/${project.id}`);
+    setProjectData(project);
+    console.log(project.id)
   }
 
   return (
@@ -30,7 +34,7 @@ const HighProfile = () => {
             <Card className='card-cont' key={index}>
               <Card.Img className='card-img' variant="left" src={project.image} alt='img' />
               <Card.Body className='card-body-profile'>
-                <Card.Title className='profile-title' onClick={() => handleClick(project.id)}>{project.name}</Card.Title>
+                <Card.Title className='profile-title' onClick={() => handleClick(project)}>{project.name}</Card.Title>
                 <Card.Text className='profile-text'>
                   {project.description}
                 </Card.Text>
