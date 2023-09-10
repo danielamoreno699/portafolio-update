@@ -1,27 +1,37 @@
-.scrollable-container {
-
-  }
 
 
 .project-info-details{
     display: flex;
     flex-direction: row;
+    background-color: red;
 }
 
+.swiper{
+    margin-top: 5rem;
+    height: 100vh;
+    /* width: 80rem; */
+}
 
-.image-stack {
- 
-   
-  }
 
 
   
     img {
-        width: 45rem;
-        height: 33rem;
+        /* width: 35rem;
+        height: 30rem; */
         /* width: 10; */
         display: block;
       }
+
+      .image-stack_item img {
+        width: 38rem;
+        height: 29rem;
+        /* width: 10; */
+        display: block;
+      }
+
+      /* .image-stack_item img.project-img-1 {
+        max-height: 300px;
+      } */
 
       .desc-text-info-details{
         width: 100%;
