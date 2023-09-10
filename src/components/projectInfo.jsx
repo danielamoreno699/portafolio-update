@@ -14,17 +14,22 @@ const ProjectInfo = () => {
       {/* <h3>{projectData.name}</h3>
       */}
       
-      <div className='image-stack'>
-        <div className='image-stack_item_top'>
+      <div className='scrollable-container'>
+    <div className='image-stack'>
+      <div className='image-stack_item'>
         <img className='project-img-1' src={projectData.imageProjectItem1} alt='img' />
-        </div>
-        <div className='image-stack_item_bottom'>
-        <img className='project-img-2' src={projectData.imageProjectItem2} alt='img' />
-        </div>
       </div>
+      <div className='image-stack_item'>
+        <img className='project-img-2' src={projectData.imageProjectItem2} alt='img' />
+      </div>
+      <div className='image-stack_item'>
+        <img className='project-img-3' src={projectData.imageProjectItem3} alt='img' />
+      </div>
+    </div>
+  </div>
 
 
-      <div className='desc-text-info-details'>
+      <div className='desc-text-info-details static'>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, expedita!</p>
           <div className="btns">
         <button type="button" className="btn-see-more live">
@@ -38,19 +43,7 @@ const ProjectInfo = () => {
       </div>
 
       </div>
-      
-      
-      
-      {/* <div className="btns">
-        <button type="button" className="btn-see-more live">
-          See live
-          <CgLivePhoto className="live-icon" />
-        </button>
-        <button type="button" className="btn-see-more git">
-          See GitRepo
-          <BsGithub className="git-icon" />
-        </button>
-      </div> */}
+   
     </div>
   );
 };

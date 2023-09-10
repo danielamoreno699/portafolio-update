@@ -1,3 +1,8 @@
+.scrollable-container {
+
+  }
+
+
 .project-info-details{
     display: flex;
     flex-direction: row;
@@ -5,9 +10,7 @@
 
 
 .image-stack {
-    display: grid;
-    position: relative; 
-    /* padding-top: 5rem; */
+ 
    
   }
 
@@ -28,6 +31,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-color: white; /* Set a background color if needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for visibility */
+    color: black;
+    
       }
   
 .btns{
@@ -35,3 +42,6 @@
     justify-content: center;
     align-items: center;
 }
+
+
+

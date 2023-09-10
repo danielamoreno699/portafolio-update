@@ -1,6 +1,7 @@
 import wanderpal from '../asset/images/projects_imgs/wanderpal-resize.png';
 import wander1 from '../asset/images/projects_imgs/wanderpal/wander1.png';
 import wander2 from '../asset/images/projects_imgs/wanderpal/wander2.png'
+import wander3 from '../asset/images/projects_imgs/wanderpal/wander3.png'
 
 const projectsTop = [
   {
@@ -18,7 +19,7 @@ The app supports different types of requests that users can execute. These reque
     demoLink: '',
     imageProjectItem1: wander1,
     imageProjectItem2: wander2,
-    descriptionItem1: ``
+    imageProjectItem3: wander3,
   },
   {
     id: 2,
