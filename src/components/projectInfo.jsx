@@ -21,19 +21,16 @@ const ProjectInfo = () => {
    
    <div className='scrollable-container'>
       <Swiper
-        // install Swiper modules
+        
         modules={[Navigation, Pagination, Scrollbar, A11y]}
           
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
-          spaceBetween={90}
-        // spaceBetween={0}
+          spaceBetween={0}
+      
         slidesPerView={2}
         direction={'vertical'}
-        // direction="vertical"
-   
-        // pagination={{ clickable: true }}
-        // scrollbar={{ draggable: true }}
+        
       >
         <SwiperSlide>
           <div className='image-stack_item'>
