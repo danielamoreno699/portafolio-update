@@ -42,7 +42,7 @@
         margin: 0 0 24px; 
         text-align: justify; 
         text-justify: inter-word;
-        margin-bottom: 20px; 
+        margin-bottom: 5rem; 
         column-count: 2; 
         column-gap: 3rem; 
         break-inside: avoid;
@@ -65,5 +65,8 @@
     align-items: center;
 }
 
+.title-projectinfo-h2{
+    
+}
 
 
