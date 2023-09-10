@@ -187,6 +187,8 @@ background-color: #d7dde1;
     display: none;
   }
 
+  
+
   @media (min-width: 375px) and (max-width: 768px) {
 
     #projects{

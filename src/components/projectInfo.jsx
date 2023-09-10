@@ -20,7 +20,7 @@ const ProjectInfo = () => {
     <div className='project-info-details'>
    
    <div className='scrollable-container'>
-      <Swiper
+      <Swiper className='swiper-project-info'
         
         modules={[Navigation, Pagination, Scrollbar, A11y]}
           
