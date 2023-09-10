@@ -37,7 +37,16 @@
       }
       
       .desc-text-info-details p {
+        font-size: 14px; 
+        line-height: 24px; 
+        margin: 0 0 24px; 
+        text-align: justify; 
+        text-justify: inter-word;
         margin-bottom: 20px; 
+        column-count: 2; 
+        column-gap: 3rem; 
+        break-inside: avoid;
+        hyphens: auto; 
       }
 
       .project-info-details-desc{

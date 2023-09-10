@@ -42,7 +42,7 @@ const CardItem = ({ card }) => {
           />
         </div>
         <div className={`card-content back ${isFlipped ? '' : 'hidden'}`}>
-          <h1>{card.name}</h1>
+          <h1 className='card-name-h1'>{card.name}</h1>
           <div className="project-info">
             <li className="li-info">{card.role}</li>
             <li className="li-info">{card.company}</li>
