@@ -7,11 +7,14 @@ const projectsTop = [
   {
     id: 1,
     name: 'Wanderpal Fullstack',
-    description: `The app is built  with React Vite in the Front-End and Rails in the Back-end.
+    description: `The app is built  with React Vite in the Front-End and Rails in the Back-end.`,
 
-The primary functionality of the app is to allow users to book reservations for tours. To access this functionality, users need to be logged in.
 
-The app supports different types of requests that users can execute. These requests include creating, retrieving (getting), and deleting reservations and items. This indicates that the app has a comprehensive set of features related to managing reservations and items associated with tours.`,
+    fullDescription: `The app is built  with React Vite in the Front-End and Rails in the Back-end.
+
+    The primary functionality of the app is to allow users to book reservations for tours. To access this functionality, users need to be logged in.
+    
+    The app supports different types of requests that users can execute. These requests include creating, retrieving (getting), and deleting reservations and items. This indicates that the app has a comprehensive set of features related to managing reservations and items associated with tours.`,
     image: wanderpal,
     year: '2023',
     technologies: ['react', 'redux', 'bootstrap', 'rails', 'ruby', 'psql'],

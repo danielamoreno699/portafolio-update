@@ -58,7 +58,9 @@ const ProjectInfo = () => {
 
 
       <div className='desc-text-info-details static'>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, expedita!</p>
+
+        <div className='project-info-details-desc'>
+        <p>{projectData.fullDescription}</p>
           <div className="btns">
         <button type="button" className="btn-see-more live">
           See live
@@ -68,6 +70,7 @@ const ProjectInfo = () => {
           See GitRepo
           <BsGithub className="git-icon" />
         </button>
+      </div>
       </div>
 
       </div>
