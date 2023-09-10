@@ -1,0 +1,37 @@
+.project-info-details{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.image-stack {
+    display: grid;
+    position: relative; 
+    /* padding-top: 5rem; */
+   
+  }
+
+
+  
+    img {
+        width: 45rem;
+        height: 33rem;
+        /* width: 10; */
+        display: block;
+      }
+
+      .desc-text-info-details{
+        width: 100%;
+        background-color: red;
+        padding-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+  
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

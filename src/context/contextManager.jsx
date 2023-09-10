@@ -9,6 +9,7 @@ export const useProjectData = () => {
 };
 
 
+// eslint-disable-next-line react/prop-types
 export const ProjectDataProvider = ({ children }) => {
   const [projectData, setProjectData] = useState(null);
 
