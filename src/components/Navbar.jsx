@@ -58,9 +58,7 @@ import { Link, useLocation } from 'react-router-dom';
       {isProjectInfo && (
         <>
           <Link to="/">Home</Link>
-          <Link to="#about-skills">About</Link>
-          <Link to="#projects">Portfolio</Link>
-          <Link to="#contact-me">Contact me</Link>
+  
         </>
       )}
     </nav>
