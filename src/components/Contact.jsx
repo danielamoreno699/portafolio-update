@@ -3,7 +3,7 @@
  const Contact = () => {
   return (
     
-    <section className="contact">
+    <section id="contact-me"className="contact-me">
         <div className="contact">
         <div className="contact-container">
         <div className='mask'></div>

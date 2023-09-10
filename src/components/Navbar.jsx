@@ -41,18 +41,21 @@ import { useEffect } from 'react';
           <div className="bar"></div>
           <div className="bar"></div>
       </div>
-
+      
       <nav className="navbar">
-           <a href="#" className="active">
-              Home
-            </a>
-            <a href="#about-skills" onClick={() => scrollToSection('about-skills')}>
-            About
-          </a>
-            <a href="#projects" onClick={() => scrollToSection('projects')}>Portfolio</a>
-            <a href="#">Contact me</a>
-           
-      </nav>
+  <a href="#" className="active">
+    Home
+  </a>
+  <a href="#about-skills" onClick={() => scrollToSection('about-skills')}>
+    About
+  </a>
+  <a href="#projects" onClick={() => scrollToSection('projects')}>
+    Portfolio
+  </a>
+  <a href="#contact-me" onClick={() => scrollToSection('contact-me')}>
+    Contact me
+  </a>
+</nav>
   
 
       <nav className={`navbar-mobile ${isMobileMenuOpen ? 'open' : ''}`}>
