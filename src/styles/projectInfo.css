@@ -66,7 +66,21 @@
 }
 
 .title-projectinfo-h2{
+  font-size: 3em;
+  
+  transform: translate(-50%,-50%);
+  background-image: linear-gradient(#00abf0, #00abf0);
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+   transition: background-size .7s, background-position .5s ease-in-out;
     
+}
+
+.title-projectinfo-h2:hover{
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-position .7s, background-size .5s ease-in-out;
 }
 
 
