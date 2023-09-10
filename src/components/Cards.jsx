@@ -56,6 +56,8 @@ const Cards = () => {
           ))}
         </Swiper>
       </div>
+
+      <div className="wave"></div>
     </section>
   );
 }
