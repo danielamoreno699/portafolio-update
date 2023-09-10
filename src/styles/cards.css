@@ -189,6 +189,9 @@ background-color: #d7dde1;
 
   @media (min-width: 375px) and (max-width: 768px) {
 
+    #projects{
+      height: 90vh;
+    }
   
     .card-container {
       perspective: 1000px; /* Set the perspective for 3D transformation */
