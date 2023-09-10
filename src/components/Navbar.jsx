@@ -1,10 +1,14 @@
 import '../styles/header.css'
 import  { useState } from 'react';
 import { useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
 
 
  const Navbar = () => {
+  const location = useLocation();
+  const isHome = location.pathname === '/';
+  const isProjectInfo = location.pathname.startsWith('/projectItem/');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const toggleMobileMenu = () => {
     console.log("Toggle mobile menu");
@@ -43,19 +47,23 @@ import { useEffect } from 'react';
       </div>
       
       <nav className="navbar">
-  <a href="#" className="active">
-    Home
-  </a>
-  <a href="#about-skills" onClick={() => scrollToSection('about-skills')}>
-    About
-  </a>
-  <a href="#projects" onClick={() => scrollToSection('projects')}>
-    Portfolio
-  </a>
-  <a href="#contact-me" onClick={() => scrollToSection('contact-me')}>
-    Contact me
-  </a>
-</nav>
+      {isHome && (
+        <>
+          <a href="#about-skills">About</a>
+          <a href="#projects">Portfolio</a>
+          <a href="#contact-me">Contact me</a>
+        </>
+      )}
+
+      {isProjectInfo && (
+        <>
+          <Link to="/">Home</Link>
+          <Link to="#about-skills">About</Link>
+          <Link to="#projects">Portfolio</Link>
+          <Link to="#contact-me">Contact me</Link>
+        </>
+      )}
+    </nav>
   
 
       <nav className={`navbar-mobile ${isMobileMenuOpen ? 'open' : ''}`}>
