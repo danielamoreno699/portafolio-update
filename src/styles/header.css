@@ -19,11 +19,15 @@
 }
 
 .navbar a {
-  font-size: 18px;
-  color: #ededed;
+  font-size: 16px; /* Adjust the font size as needed */
+  color: white;
   text-decoration: none;
   font-weight: 500;
-  margin-left: 35px;
+  margin-left: 25px; /* Adjust the margin as needed */
+  padding: 3px 15px; /* Add padding to create space around the text */
+  background-color: #081b29; /* Add a background color */
+  
+  border-radius: 5px; /* Add rounded corners */
   transition: .3s;
 }
 

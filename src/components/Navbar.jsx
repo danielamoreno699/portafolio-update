@@ -49,6 +49,7 @@ import { Link, useLocation } from 'react-router-dom';
       <nav className="navbar">
       {isHome && (
         <>
+          <a href="#" className="active">Home</a>
           <a href="#about-skills">About</a>
           <a href="#projects">Portfolio</a>
           <a href="#contact-me">Contact me</a>
