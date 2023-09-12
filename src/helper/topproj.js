@@ -2,6 +2,7 @@ import wanderpal from '../asset/images/projects_imgs/wanderpal-resize.png';
 import wander1 from '../asset/images/projects_imgs/wanderpal/wander1.png';
 import wander2 from '../asset/images/projects_imgs/wanderpal/wander2.png'
 import wander3 from '../asset/images/projects_imgs/wanderpal/wander3.png'
+import wander4 from '../asset/images/projects_imgs/wanderpal/wander4.png'
 import cutcost_resize from '../asset/images/projects_imgs/cost-resize.png';
 import cost1 from '../asset/images/projects_imgs/costapp/costcut1.png';
 import cost2 from '../asset/images/projects_imgs/costapp/costcut2.png';
@@ -28,6 +29,7 @@ const projectsTop = [
     imageProjectItem1: wander1,
     imageProjectItem2: wander2,
     imageProjectItem3: wander3,
+    imageProjectItem4: wander4,
   },
   {
     id: 2,
