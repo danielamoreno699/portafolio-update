@@ -20,40 +20,47 @@ const ProjectInfo = () => {
     <div className='project-info-details'>
    
    <div className='scrollable-container'>
-      <Swiper className='swiper-project-info'
-        
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
-          
-          pagination={{ clickable: true }}
-          scrollbar={{ draggable: true }}
-          spaceBetween={0}
-      
-        slidesPerView={2}
-        direction={'vertical'}
-        
-      >
-        <SwiperSlide>
-          <div className='image-stack_item'>
-            <img className='project-img-1' src={projectData.imageProjectItem1} alt='img' />
-          </div>
-          
-        </SwiperSlide>
-        
-        <SwiperSlide>
-        <div className='image-stack_item'>
-            <img className='project-img-2' src={projectData.imageProjectItem2} alt='img' />
-          </div>
+   <Swiper className='swiper-project-info'
+  modules={[Navigation, Pagination, Scrollbar, A11y]}
+  pagination={{ clickable: true }}
+  scrollbar={{ draggable: true }}
+  spaceBetween={0}
+  slidesPerView={2}
+  direction={'vertical'}
+>
+  {projectData.imageProjectItem1 && (
+    <SwiperSlide>
+      <div className='image-stack_item'>
+        <img className='project-img-1' src={projectData.imageProjectItem1} alt='img' />
+      </div>
+    </SwiperSlide>
+  )}
 
-        </SwiperSlide>
-        
-        <SwiperSlide>
-          <div className='image-stack_item'>
-            <img className='project-img-3' src={projectData.imageProjectItem3} alt='img' />
-          </div>
+  {projectData.imageProjectItem2 && (
+    <SwiperSlide>
+      <div className='image-stack_item'>
+        <img className='project-img-2' src={projectData.imageProjectItem2} alt='img' />
+      </div>
+    </SwiperSlide>
+  )}
 
-        </SwiperSlide>
-   
-      </Swiper>
+  {projectData.imageProjectItem3 && (
+    <SwiperSlide>
+      <div className='image-stack_item'>
+        <img className='project-img-3' src={projectData.imageProjectItem3} alt='img' />
+      </div>
+    </SwiperSlide>
+  )}
+
+  {projectData.imageProjectItem4 && (
+    <SwiperSlide>
+      <div className='image-stack_item'>
+        <img className='project-img-4' src={projectData.imageProjectItem4} alt='img' />
+      </div>
+    </SwiperSlide>
+  )}
+</Swiper>
+
     </div>
 
 

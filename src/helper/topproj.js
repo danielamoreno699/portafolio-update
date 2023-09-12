@@ -2,6 +2,11 @@ import wanderpal from '../asset/images/projects_imgs/wanderpal-resize.png';
 import wander1 from '../asset/images/projects_imgs/wanderpal/wander1.png';
 import wander2 from '../asset/images/projects_imgs/wanderpal/wander2.png'
 import wander3 from '../asset/images/projects_imgs/wanderpal/wander3.png'
+import cutcost_resize from '../asset/images/projects_imgs/cost-resize.png';
+import cost1 from '../asset/images/projects_imgs/costapp/costcut1.png';
+import cost2 from '../asset/images/projects_imgs/costapp/costcut2.png';
+import cost3 from '../asset/images/projects_imgs/costapp/costcut3.png';
+import cost4 from '../asset/images/projects_imgs/costapp/costcut4.png';
 
 const projectsTop = [
   {
@@ -26,13 +31,17 @@ const projectsTop = [
   },
   {
     id: 2,
-    name: 'Wanderpal Fullstack',
-    description: `The app is built using React with Vite, which are technologies used for creating web applications and items.`,
-    image: wanderpal,
+    name: 'Cost-Cut App',
+    description: `A rails built app for budget managing.`,
+    image: cutcost_resize,
     year: '2023',
-    technologies: ['react', 'redux', 'bootstrap', 'rails', 'ruby', 'psql'],
+    technologies: [ 'rails', 'ruby', 'psql'],
     repoLink: 'https://github.com/danielamoreno699/bookstore',
     demoLink: '',
+    imageProjectItem1: cost1,
+    imageProjectItem2: cost2,
+    imageProjectItem3: cost3,
+    imageProjectItem4: cost4,
   }
 ];
 
