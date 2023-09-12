@@ -64,12 +64,16 @@
 
   
   .contact-logos{
+    
     position: inherit;
         bottom: 10rem;
         width: 20rem;
         display: flex;
         
         align-items: stretch;
+  }
+  .contact-logos a{
+    background: linear-gradient(359.3deg, rgb(196, 214, 252) 1%, rgba(187, 187, 187, 0) 70.9%);
   }
   
   .contact-container {
