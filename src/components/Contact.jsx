@@ -6,12 +6,12 @@ const Contact = () => {
       <div className="contact">
         <div className="contact-container">
           <div className='mask'></div>
-          <h2 className='h2-top'>Contact me</h2>
+          <h2 className='h2-contact'>Contact me</h2>
 
           <div className="contact-info">
           <div className="container">
             <div className="text">
-              Contact us Form
+              Contact Email Form
             </div>
            
             <form action="#">
