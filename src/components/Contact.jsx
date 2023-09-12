@@ -1,8 +1,15 @@
 import '../styles/contact.css';
-import Swal from 'sweetalert2'
+import { useNavigate } from 'react-router-dom';
+
 
 const Contact = () => {
 
+  const navigateTo = useNavigate(); 
+
+  const handleSubmit = async (e) => {
+    e.preventDefault(); 
+    navigateTo('/thanks');
+  };
  
   return (
     <section id="contact-me" className="contact-me">
@@ -17,7 +24,7 @@ const Contact = () => {
                 Contact Email Form
               </div>
 
-              <form action="https://formsubmit.co/danielamoreno699@gmail.com" method="POST"  >
+              <form action="https://formsubmit.co/danielamoreno699@gmail.com" method="POST" onSubmit={handleSubmit}  >
                 <div className="form-row">
                   <div className="input-data">
                     <input type="text" 
@@ -68,6 +75,8 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
+
+                <input type="hidden" name="_next" value="/thanks" /> 
               </form>
             </div>
           </div>

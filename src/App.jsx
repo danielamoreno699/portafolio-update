@@ -13,6 +13,7 @@ import './styles/App.css'
 
 import { Routes, Route } from 'react-router-dom';
 import ProjectInfo from './components/projectInfo';
+import Thanks from './components/thanks';
 
 
 function App() {
@@ -39,6 +40,8 @@ function App() {
         }/>
 
         <Route path="projectItem/:id" element={<ProjectInfo/>}/>
+
+        <Route path="thanks" element={<Thanks/>}/>
       </Routes>
         
 
