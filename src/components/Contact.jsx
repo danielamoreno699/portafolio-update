@@ -1,6 +1,9 @@
 import '../styles/contact.css';
+import Swal from 'sweetalert2'
 
 const Contact = () => {
+
+ 
   return (
     <section id="contact-me" className="contact-me">
       <div className="contact">
@@ -14,7 +17,7 @@ const Contact = () => {
                 Contact Email Form
               </div>
 
-              <form action="https://formsubmit.co/danielamoreno699@gmail.com" method="POST">
+              <form action="https://formsubmit.co/danielamoreno699@gmail.com" method="POST"  >
                 <div className="form-row">
                   <div className="input-data">
                     <input type="text" 
