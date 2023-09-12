@@ -1,4 +1,4 @@
-import  '../styles/contact.css'
+import '../styles/contact.css';
 
 const Contact = () => {
   return (
@@ -9,52 +9,63 @@ const Contact = () => {
           <h2 className='h2-contact'>Contact me</h2>
 
           <div className="contact-info">
-          <div className="container">
-            <div className="text">
-              Contact Email Form
-            </div>
-           
-            <form action="#">
-              <div className="form-row">
-                <div className="input-data">
-                  <input type="text" required />
-                  <div className="underline"></div>
-                  <label htmlFor="">First Name</label>
-                </div>
-                <div className="input-data">
-                  <input type="text" required />
-                  <div className="underline"></div>
-                  <label htmlFor="">Last Name</label>
-                </div>
+            <div className="container">
+              <div className="text">
+                Contact Email Form
               </div>
-              <div className="form-row">
-                <div className="input-data">
-                  <input type="text" required />
-                  <div className="underline"></div>
-                  <label htmlFor="">Email Address</label>
+
+              <form action="https://formsubmit.co/danielamoreno699@gmail.com" method="POST">
+                <div className="form-row">
+                  <div className="input-data">
+                    <input type="text" 
+                      name="firstName"
+                      required />
+                    <div className="underline"></div>
+                    <label htmlFor="">First Name</label>
+                  </div>
+                  <div className="input-data">
+                    <input type="text" 
+                      required
+                      name="lastName" />
+                    <div className="underline"></div>
+                    <label htmlFor="">Last Name</label>
+                  </div>
                 </div>
-                <div className="input-data">
-                  <input type="text" required />
-                  <div className="underline"></div>
-                  <label htmlFor="">Website Name</label>
+                <div className="form-row">
+                  <div className="input-data">
+                    <input type="email" 
+                      name="email"
+                      required />
+                    <div className="underline"></div>
+                    <label htmlFor="">Email Address</label>
+                  </div>
+                  <div className="input-data">
+                    <input type="text" 
+                      name="motivation"
+                      required />
+                    <div className="underline"></div>
+                    <label htmlFor="">Motivation for Contact</label>
+                  </div>
                 </div>
-              </div>
-              <div className="form-row">
-                <div className="input-data textarea">
-                  <textarea rows="8" cols="80" required></textarea>
-                  <br />
-                  <div className="underline"></div>
-                  <label htmlFor="">Write your message</label>
-                  <br />
-                  <div className="form-row submit-btn">
-                    <div className="input-data">
-                      <div className="inner"></div>
-                      <input type="submit" value="Submit" />
+                <div className="form-row">
+                  <div className="input-data textarea">
+                    <textarea rows="8" cols="80" 
+                      required
+                      name="message"
+                    ></textarea>
+                    <br />
+                    <div className="underline"></div>
+                    <label htmlFor="">Write your message</label>
+                    <br />
+                    <div className="form-row submit-btn">
+                      <div className="input-data">
+                        <div className="inner"></div>
+                        <input type="submit" value="Submit" />
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </form>
+              </form>
             </div>
           </div>
         </div>
