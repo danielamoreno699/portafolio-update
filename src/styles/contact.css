@@ -225,10 +225,10 @@
 }
 
 .contact-logos{
-      /* position: absolute; */
+  position: inherit;
       bottom: 10rem;
       width: 20rem;
       display: flex;
-      /* justify-content: center; */
+      
       align-items: stretch;
 }
