@@ -1,4 +1,5 @@
 import wanderpal from '../asset/images/projects_imgs/wanderpal-resize.png';
+import wandertest from '../asset/images/projects_imgs/wandertest.png';
 import wander1 from '../asset/images/projects_imgs/wanderpal/wander1.png';
 import wander2 from '../asset/images/projects_imgs/wanderpal/wander2.png'
 import wander3 from '../asset/images/projects_imgs/wanderpal/wander3.png'
@@ -21,7 +22,7 @@ const projectsTop = [
     The primary functionality of the app is to allow users to book reservations for tours. To access this functionality, users need to be logged in.
     
     The app supports different types of requests that users can execute. These requests include creating, retrieving (getting), and deleting reservations and items. This indicates that the app has a comprehensive set of features related to managing reservations and items associated with tours.`,
-    image: wanderpal,
+    image: wandertest,
     year: '2023',
     technologies: ['react', 'redux', 'bootstrap', 'rails', 'ruby', 'psql'],
     repoLink: 'https://github.com/danielamoreno699/bookstore',
