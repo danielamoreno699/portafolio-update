@@ -35,6 +35,16 @@ const projectsTop = [
     id: 2,
     name: 'Cost-Cut App',
     description: `A rails built app for budget managing.`,
+    fullDescription: `The Ruby on Rails Cost Cut App application exemplifies the MVC architecture and leverages the Devise gem for authentication and the CanCanCan gem for authorization. Demonstrating the robust capabilities of Ruby on Rails, this app seamlessly interacts with a database to deliver an impressive user experience.
+    This system provides users with enhanced capabilities for managing their budgets. Users are empowered to efficiently handle their finances through various features:
+    
+    1.Category Selection and Naming: Users can select specific group categories and create custom names for them.
+    
+    2.Expense Summary: The main dashboard prominently displays the cumulative expenses for each category. This information is derived from the transactions entered through the transaction form.
+    
+    3.Transaction Details: The second view presents an itemized list of transactions associated with a chosen category. Users can input expense amounts for each transaction.
+    
+    4.Category Transaction Total: This section also showcases the total amount spent within the selected category, giving users a clear overview of their spending.`,
     image: cutcost_resize,
     year: '2023',
     technologies: [ 'rails', 'ruby', 'psql'],

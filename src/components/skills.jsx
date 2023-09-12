@@ -26,7 +26,7 @@ const Skills = ({setIsOpen, pdfPath}) => {
   return (
     <>
     <section id="about-skills">
-    <h2 className="h2-card">take a look at my projects</h2>
+    <h2 className="h2-card">tech-stack & soft skills</h2>
       <div className="skills-container">
     
         <div className="skills-sidebar">
