@@ -13,6 +13,64 @@
     align-items: center;
     position: relative; /* Add this line */
   }
+
+  .contact-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-bottom: 5rem;
+    
+  }
+
+  .h2-contact {
+  
+    font-size: 2.5rem;
+    text-align: center;
+  
+    margin-bottom: 3rem;
+    position: relative;
+    color: white;
+    /* padding: 5% 0 0 0; */
+}
+
+.h2-contact::before,
+.h2-contact::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.h2-contact::before {
+  left: 0;
+  transform-origin: left;
+}
+
+.h2-contact::after {
+  right: 0;
+  transform-origin: right;
+}
+
+.h2-contact:hover::before,
+.h2-contact:hover::after {
+  transform: scaleX(1);
+}
+
+
+  
+  .contact-logos{
+    position: inherit;
+        bottom: 10rem;
+        width: 20rem;
+        display: flex;
+        
+        align-items: stretch;
+  }
   
   .contact-container {
     width: 100%;
@@ -46,6 +104,14 @@
     align-items: center;
     justify-content: center;
     
+  }
+
+  .contact-log-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
   }
 
   .container{
@@ -179,56 +245,4 @@
     }
   }
 
-  .h2-contact {
-    font-size: 2.5rem;
-    text-align: center;
-  
-    margin-bottom: 3rem;
-    position: relative;
-    color: white;
-    /* padding: 5% 0 0 0; */
-}
-
-.h2-contact::before,
-.h2-contact::after {
-  content: '';
-  position: absolute;
-  bottom: -5px;
-  width: 100%;
-  height: 2px;
-  background-color: white;
-  transform: scaleX(0);
-  transition: transform 0.3s ease-in-out;
-}
-
-.h2-contact::before {
-  left: 0;
-  transform-origin: left;
-}
-
-.h2-contact::after {
-  right: 0;
-  transform-origin: right;
-}
-
-.h2-contact:hover::before,
-.h2-contact:hover::after {
-  transform: scaleX(1);
-}
-
-.contact-title{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 5rem;
-}
-
-.contact-logos{
-  position: inherit;
-      bottom: 10rem;
-      width: 20rem;
-      display: flex;
-      
-      align-items: stretch;
-}
+ 

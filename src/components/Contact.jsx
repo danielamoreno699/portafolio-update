@@ -21,12 +21,15 @@ const Contact = () => {
           <div className='contact-title'>
           <h2 className='h2-contact'>Contact me</h2>
 
+          <div className='contact-log-container'>
           <div className='home-sci contact-logos'>
            
-            <a href=""><box-icon name='twitter' type='logo' className="logo"></box-icon></a>
-            <a href=""><box-icon name='github' type='logo' className="logo" ></box-icon></a>
-            <a href=""><box-icon name='linkedin' type='logo' className="logo"></box-icon></a>
+           <a href=""><box-icon name='twitter' type='logo' className="logo"></box-icon></a>
+           <a href=""><box-icon name='github' type='logo' className="logo" ></box-icon></a>
+           <a href=""><box-icon name='linkedin' type='logo' className="logo"></box-icon></a>
+         </div>
           </div>
+          
 
 
 
