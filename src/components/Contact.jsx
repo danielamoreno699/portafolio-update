@@ -8,10 +8,12 @@ const Contact = () => {
           <div className='mask'></div>
           <h2 className='h2-top'>Contact me</h2>
 
+          <div className="contact-info">
           <div className="container">
             <div className="text">
               Contact us Form
             </div>
+           
             <form action="#">
               <div className="form-row">
                 <div className="input-data">
@@ -53,6 +55,7 @@ const Contact = () => {
                 </div>
               </div>
             </form>
+            </div>
           </div>
         </div>
       </div>
