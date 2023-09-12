@@ -60,7 +60,7 @@
     font-size: 41px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
-    background: -webkit-linear-gradient(right, #56d8e4, #117AF1, #1111F1, #08162F,#1F9dec );;
+    background: linear-gradient(112.1deg, rgb(77, 238, 253) 0.7%, rgb(3, 151, 232) 26.1%, rgb(47, 31, 116) 95.7%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -182,12 +182,12 @@
   .h2-contact {
     font-size: 2.5rem;
     text-align: center;
-    margin-bottom: 9rem;
+  
+    margin-bottom: 3rem;
     position: relative;
     color: white;
     /* padding: 5% 0 0 0; */
 }
-
 
 .h2-contact::before,
 .h2-contact::after {
@@ -214,4 +214,21 @@
 .h2-contact:hover::before,
 .h2-contact:hover::after {
   transform: scaleX(1);
+}
+
+.contact-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.contact-logos{
+      /* position: absolute; */
+      bottom: 10rem;
+      width: 20rem;
+      display: flex;
+      /* justify-content: center; */
+      align-items: stretch;
 }

@@ -6,17 +6,31 @@ const Contact = () => {
 
   const navigateTo = useNavigate(); 
 
-  const handleSubmit = async (e) => {
-    e.preventDefault(); 
-    navigateTo('/thanks');
-  };
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault(); 
+  //   navigateTo('/thanks');
+  // };
  
   return (
     <section id="contact-me" className="contact-me">
       <div className="contact">
         <div className="contact-container">
           <div className='mask'></div>
+
+
+          <div className='contact-title'>
           <h2 className='h2-contact'>Contact me</h2>
+
+          <div className='home-sci contact-logos'>
+           
+            <a href=""><box-icon name='twitter' type='logo' className="logo"></box-icon></a>
+            <a href=""><box-icon name='github' type='logo' className="logo" ></box-icon></a>
+            <a href=""><box-icon name='linkedin' type='logo' className="logo"></box-icon></a>
+          </div>
+
+
+
+        </div>
 
           <div className="contact-info">
             <div className="container">
@@ -24,7 +38,7 @@ const Contact = () => {
                 Contact Email Form
               </div>
 
-              <form action="https://formsubmit.co/danielamoreno699@gmail.com" method="POST" onSubmit={handleSubmit}  >
+              <form action="https://formsubmit.co/danielamoreno699@gmail.com" method="POST"  >
                 <div className="form-row">
                   <div className="input-data">
                     <input type="text" 
@@ -76,7 +90,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <input type="hidden" name="_next" value="/thanks" /> 
+                {/* <input type="hidden" name="_next" value="/thanks" />  */}
               </form>
             </div>
           </div>
