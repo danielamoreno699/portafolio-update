@@ -62,7 +62,7 @@ const projectDetailList = [
       role: 'FrontEnd Dev',
       company: 'Microverse',
       year: '2018',
-      repoLink: '#',
+      repoLink: 'https://github.com/danielamoreno699/Math-Magician',
       demoLink: 'https://math-magician-dvak.onrender.com',
     },
   ];
