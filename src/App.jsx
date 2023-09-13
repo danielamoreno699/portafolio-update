@@ -16,7 +16,7 @@ import ProjectInfo from './components/projectInfo';
 import Thanks from './components/thanks';
 
 
-function App() {
+const  App = ()  => {
   const [isOpen, setIsOpen] = useState(false);
   const pdfPath = '../../cv.pdf'
 
