@@ -50,13 +50,16 @@ import { AiFillBackward } from "react-icons/ai";
         {isProjectInfo && (
         <AiFillBackward className='back-icon' onClick={onHandleNavigate} />
         )}
+
+    {!isProjectInfo && (
         <div className="hamburger-icon " onClick={toggleMobileMenu}>
           <div className="bar"></div>
           <div className="bar"></div>
           <div className="bar"></div>
       </div>
-      
+       )}
       <nav className="navbar">
+     
       {isHome && (
         <>
           <a href="#" className="active">Home</a>

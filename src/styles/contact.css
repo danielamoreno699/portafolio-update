@@ -78,7 +78,7 @@
   
   .contact-container {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     position: relative;
     justify-content: center;
     align-items: stretch;
@@ -175,6 +175,7 @@
     bottom: 10px;
     font-size: 16px;
     transition: all 0.3s ease;
+    color: gray;
   }
   .textarea label{
     width: 100%;

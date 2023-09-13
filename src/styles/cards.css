@@ -318,6 +318,12 @@ background-color: #d7dde1;
     margin: 0;
     font-size: 10px;
   }
+
+  .card:hover .card-content {
+    opacity: 1;
+    height: 100%; 
+  }
+  
   
   }
   
@@ -344,5 +350,10 @@ background-color: #d7dde1;
     }
     .project-info{
       padding: 1rem 0rem;
+  }
+
+  .card:hover .card-content {
+    opacity: 1;
+    height: 100%; 
   }
   }
