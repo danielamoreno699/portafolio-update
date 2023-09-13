@@ -231,14 +231,14 @@
 
   }
 
-  @media (min-width: 768px) and (max-width: 800px){
+  @media (min-width: 768px) and (max-width: 900px){
 
-    .high-profile{
-     
-    }
+    .card-cont {
+      width: 100%;
   }
+}
 
-  @media (min-width: 801px) and (max-width: 2000px){
+  @media (min-width: 901px) and (max-width: 2000px){
     .card-cont {
       width: 100%;
       padding: 3rem;

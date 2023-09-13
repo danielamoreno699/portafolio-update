@@ -134,7 +134,7 @@
 
 }
 
-@media (min-width: 768px) and (max-width: 1439px){
+@media (min-width: 768px) and (max-width: 1000px){
   .project-info-details {
     display: flex;
     flex-direction: column;
@@ -173,4 +173,18 @@
     hyphens: auto;
    
     
+}
+}
+
+@media (min-width: 1020px) and (max-width: 1540px){
+
+  .project-info-details-desc {
+    width: 100%;
+  }
+
+  .title-projectinfo-h2 {
+    font-size: 2em;
+    transform: translate(-45%,63%);
+  }
+
 }
