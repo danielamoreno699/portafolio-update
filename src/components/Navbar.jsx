@@ -1,15 +1,17 @@
 import '../styles/header.css'
 import  { useState } from 'react';
 import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Link, useLocation } from 'react-router-dom';
 import { AiFillBackward } from "react-icons/ai";
 
 
  const Navbar = () => {
 
+  const navigate = useNavigate();
 
   const onHandleNavigate = () => {
-    window.history.back();
+    navigate(-2);
   };
 
   const location = useLocation();

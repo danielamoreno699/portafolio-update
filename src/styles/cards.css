@@ -251,6 +251,10 @@ background-color: #d7dde1;
       height: 90vh;
     }
 
+    .wave:before {
+      display: none;
+  }
+
     .card-img {
       width: 90%;
       height: 91%;
