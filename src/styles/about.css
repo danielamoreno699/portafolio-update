@@ -98,7 +98,7 @@
 	box-sizing: border-box;
 	padding-top: 18px;
 	background-color : #1875D0;
-  width: 77px;
+  width: 68px;
   height: 64px;
 	color : white;
 	text-align : center;
@@ -231,7 +231,7 @@
 
 @media (min-width: 768px) and (max-width: 800px){
   .ul-about {
-    margin-left: 0rem;
+    margin-left: none;
     left: 23;
   }
 
@@ -255,7 +255,7 @@
       background-color: white;
     }
     .ul-about{
-      margin-left: 0;
+      /* margin-left: 0; */
     }
    
     

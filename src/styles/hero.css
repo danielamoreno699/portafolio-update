@@ -252,6 +252,11 @@
   }
   
   @media (min-width: 768px) and (max-width: 1022px) {
+
+    .home {
+      padding: 0 8%;
+    }
+
     .home-background {
       position: absolute;
       right: 0;

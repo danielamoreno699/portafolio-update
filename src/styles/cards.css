@@ -250,6 +250,12 @@ background-color: #d7dde1;
     #projects{
       height: 90vh;
     }
+
+    .card-img {
+      width: 90%;
+      height: 91%;
+    
+  }
   
     .card-container {
       perspective: 1000px; /* Set the perspective for 3D transformation */
