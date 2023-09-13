@@ -236,6 +236,14 @@
 
   @media (min-width: 769px) and (max-width: 1440px){
     .skills-ul li {
-      width:8rem;
+      width:6rem;
     }
+
+    .skills {
+      flex: inherit;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      margin: 1rem;
+  }
   }
