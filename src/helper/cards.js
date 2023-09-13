@@ -2,6 +2,7 @@ import bookstorereact3 from '../asset/images/projects_imgs/bookstorereact3.png';
 import movies2 from '../asset/images/projects_imgs/movies2.png';
 import spaceX from '../asset/images/projects_imgs/spaceX.png';
 import stock from '../asset/images/projects_imgs/stock.png';
+import math from '../asset/images/projects_imgs/math-sc.png';
 
 const projectDetailList = [
     {
@@ -54,15 +55,15 @@ const projectDetailList = [
     },
     {
       id: 4,
-      name: 'Uber Navigation',
-      description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      imageLink: 'assets/card3.png',
-      technologies: ['html', 'css', 'javascript'],
-      role: 'Lead developer',
-      company: 'Uber',
+      name: 'Math Magician',
+      description: 'Math Magicians Calculator app is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: 1)Make simple calculations. 2)Read a random math-related quote by fetching from an Api.',
+      imageLink: math,
+      technologies: ['html', 'css', 'React', 'Redux'],
+      role: 'FrontEnd Dev',
+      company: 'Microverse',
       year: '2018',
       repoLink: '#',
-      demoLink: '#',
+      demoLink: 'https://math-magician-dvak.onrender.com',
     },
   ];
 
