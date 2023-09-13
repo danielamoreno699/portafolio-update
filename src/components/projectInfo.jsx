@@ -3,6 +3,8 @@ import { CgLivePhoto } from 'react-icons/cg';
 import { useProjectData } from '../context/contextManager';
 import '../styles/projectInfo.css'
 
+
+
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -18,6 +20,7 @@ const ProjectInfo = () => {
 
   return (
     <div className='project-info-details'>
+     
    
    <div className='scrollable-container'>
    <Swiper className='swiper-project-info'

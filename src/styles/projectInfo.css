@@ -5,6 +5,9 @@
     flex-direction: row;
 
 }
+.back-icon{
+  display: none;
+}
 
 .swiper-project-info{
   margin-top: 5rem;
@@ -85,6 +88,14 @@
 }
 
 @media (max-width: 768px){
+
+  .back-icon{
+    display: block;
+    color: black;
+    width: 6rem;
+    height: 3rem;
+  }
+  
 
   .project-info-details {
     display: flex;

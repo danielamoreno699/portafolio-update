@@ -2,10 +2,16 @@ import '../styles/header.css'
 import  { useState } from 'react';
 import { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-
+import { AiFillBackward } from "react-icons/ai";
 
 
  const Navbar = () => {
+
+
+  const onHandleNavigate = () => {
+    window.history.back();
+  };
+
   const location = useLocation();
   const isHome = location.pathname === '/';
   const isProjectInfo = location.pathname.startsWith('/projectItem/');
@@ -34,12 +40,14 @@ import { Link, useLocation } from 'react-router-dom';
     closeMobileMenu();
  
   };
-
-
+  
+  
   return (
     <header className="header">
         <a href="#" className="logo">Daniela</a>
-
+        {isProjectInfo && (
+        <AiFillBackward className='back-icon' onClick={onHandleNavigate} />
+        )}
         <div className="hamburger-icon " onClick={toggleMobileMenu}>
           <div className="bar"></div>
           <div className="bar"></div>
