@@ -84,4 +84,41 @@
   transition: background-position .7s, background-size .5s ease-in-out;
 }
 
+@media (max-width: 768px){
 
+  .project-info-details {
+    display: flex;
+    flex-direction: column;
+}
+  .image-stack_item img {
+   
+    width: 27rem;
+    height: 23rem;
+
+    display: block;
+  }
+  .title-projectinfo-h2 {
+    font-size: 2em;
+    transform: translate(1%,-50%);
+  }
+
+  .desc-text-info-details p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 24px;
+    text-align: justify;
+    text-justify: inter-word;
+    /* margin-bottom: 5rem; */
+    column-count: 1;
+    column-gap: 3rem;
+    break-inside: avoid;
+    hyphens: auto;
+}
+
+.project-info-details-desc {
+ 
+  padding: 5rem;
+  width: 29rem;
+}
+
+}
