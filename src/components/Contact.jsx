@@ -1,10 +1,11 @@
 import '../styles/contact.css';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
+import 'boxicons'
 
 
 const Contact = () => {
 
-  const navigateTo = useNavigate(); 
+  // const navigateTo = useNavigate(); 
 
   // const handleSubmit = async (e) => {
   //   e.preventDefault(); 
@@ -27,6 +28,8 @@ const Contact = () => {
            <a href=""><box-icon name='twitter' type='logo' className="logo"></box-icon></a>
            <a href=""><box-icon name='github' type='logo' className="logo" ></box-icon></a>
            <a href=""><box-icon name='linkedin' type='logo' className="logo"></box-icon></a>
+            <a href=""><box-icon type='logo' name='whatsapp'></box-icon></a>
+          
          </div>
           </div>
           

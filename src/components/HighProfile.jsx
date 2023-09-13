@@ -31,7 +31,7 @@ const HighProfile = () => {
 
        <div className='card-profile'>
           {top.map((project, index) => (
-            <Card className='card-cont' key={index}>
+            <Card className='card-cont' key={index} onClick={() => handleClick(project)}>
               <Card.Img className='card-img' variant="left" src={project.image} alt='img' />
               <Card.Body className='card-body-profile'>
                 <Card.Title className='profile-title' onClick={() => handleClick(project)}>{project.name}</Card.Title>
