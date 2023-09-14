@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/no-unescaped-entities */
 import '../styles/about.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
@@ -5,6 +7,7 @@ import { faEye } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faShareAlt } from '@fortawesome/free-solid-svg-icons';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+
 
 const Aboutme = ({setIsOpen}) => {
 
@@ -26,13 +29,13 @@ const Aboutme = ({setIsOpen}) => {
          <h1 className="heading">More About myself</h1>
          <div className="separator"></div>
          <p className="paragraph-about">
-         I am a software developer with a background in law and finance. 
+         I am a software developer with a strong background in law and finance. My unique blend of expertise allows me to approach challenges with a holistic perspective.
             <br />
             <br />
-            I have a passion for technology and innovation, and I am eager to leverage my legal and financial expertise with my programming skills to drive innovation and efficiency in the legal and financial sectors. 
+            With a genuine passion for technology and innovation, I am eager to contribute my skills and knowledge to your project.
             <br />
             <br />
-            I believe that my unique combination of skills will enable me to contribute to cutting-edge projects and create solutions that bridge the gap between technology and law/finance.
+            I am confident that I can provide valuable insights and help create solutions. Let's work together to drive meaningful change and innovation.
    
          </p>
          

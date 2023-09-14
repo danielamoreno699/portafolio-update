@@ -1,7 +1,7 @@
-import bookstorereact3 from '../asset/images/projects_imgs/bookstorereact3.png';
+// import bookstorereact3 from '../asset/images/projects_imgs/bookstorereact3.png';
 import movies2 from '../asset/images/projects_imgs/movies2.png';
 import spaceX from '../asset/images/projects_imgs/spaceX.png';
-import stock from '../asset/images/projects_imgs/stock.png';
+// import stock from '../asset/images/projects_imgs/stock.png';
 import math from '../asset/images/projects_imgs/math-sc.png';
 import htmlProject from '../asset/images/projects_imgs/html-project.png';
 

@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
 import '../styles/skills.css';
 import { useState } from 'react';
 import { useSelector } from 'react-redux';
@@ -30,7 +32,7 @@ const Skills = ({setIsOpen, pdfPath}) => {
       <div className="skills-container">
     
         <div className="skills-sidebar">
-          {/* <h3>About</h3> */}
+  
         <div className="resume">
           <h2 className='about-me'>About Me</h2>
           <hr
@@ -80,7 +82,6 @@ const Skills = ({setIsOpen, pdfPath}) => {
 
 
         <div className="skills">
-          {/* <h1>Skills</h1> */}
         
           <div className="skills-content">
             <ul className="skills-ul">

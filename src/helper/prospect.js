@@ -1,5 +1,5 @@
 const prospect =[
-    "I am seeking growth opportunities in collaborative, creative, and flexible environments. My primary goal is to continuously learn and gain valuable experience that will enable me to develop innovative products that meet the essential needs of people and contribute positively to society."
+    "I am actively seeking growth opportunities in collaborative, creative, and flexible environments. My primary goal is to consistently learn and acquire valuable experience, enabling me to develop innovative products that address the essential needs of people and contribute positively to society."
 ]
 
 export default prospect;

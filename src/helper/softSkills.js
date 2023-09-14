@@ -5,7 +5,7 @@ const softSkills = [
     },
     {
       title: "Leadership",
-      content: "Provide support and guidance to team members during mentorships."
+      content: "Provide support and guidance to team members during Capstone projects."
     },
     {
       title: "Problem Solving",
