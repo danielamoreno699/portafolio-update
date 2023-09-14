@@ -12,7 +12,7 @@ import cost2 from '../asset/images/projects_imgs/costapp/costcut2.png';
 import cost3 from '../asset/images/projects_imgs/costapp/costcut3.png';
 import cost4 from '../asset/images/projects_imgs/costapp/costcut4.png';
 
-import stockProject from '../asset/images/projects_imgs/display-top-stock.png';
+import stockProject from '../asset/images/projects_imgs/test2.png';
 import stock1 from '../asset/images/projects_imgs/stock-pr/stock-project1.png';
 import stock2 from '../asset/images/projects_imgs/stock-pr/stock-project2.png';
 import stock3 from '../asset/images/projects_imgs/stock-pr/stock-project3.png';
@@ -33,8 +33,8 @@ const projectsTop = [
     image: wanderpal,
     year: '2023',
     technologies: ['react', 'redux', 'bootstrap', 'rails', 'ruby', 'psql'],
-    repoLink: '',
-    demoLink: '',
+    repoLink: 'https://github.com/danielamoreno699/wanderpal-frontend',
+    demoLink: 'https://fancy-toffee-1b590d.netlify.app',
     imageProjectItem1: wander1,
     imageProjectItem2: wander2,
     imageProjectItem3: wander3,
@@ -57,8 +57,8 @@ const projectsTop = [
     image: cutcost_resize,
     year: '2023',
     technologies: [ 'rails', 'ruby', 'psql'],
-    repoLink: '',
-    demoLink: '',
+    repoLink: 'https://github.com/danielamoreno699/CostCutApp',
+    demoLink: 'https://rails-emv5.onrender.com',
     imageProjectItem1: cost1,
     imageProjectItem2: cost2,
     imageProjectItem3: cost3,
@@ -76,8 +76,8 @@ const projectsTop = [
     image: stockProject,
     year: '2023',
     technologies: [ 'react', 'redux', 'javascript'],
-    repoLink: '',
-    demoLink: 'https://venerable-sprinkles-b40b30.netlify.app/Home',
+    repoLink: 'https://github.com/danielamoreno699/react-project-capstone',
+    demoLink: 'https://venerable-sprinkles-b40b30.netlify.app',
     imageProjectItem1: stock1,
     imageProjectItem2: stock2,
     imageProjectItem3: stock3,

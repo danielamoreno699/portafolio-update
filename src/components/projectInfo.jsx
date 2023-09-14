@@ -15,6 +15,15 @@ import "swiper/css/scrollbar";
 
 const ProjectInfo = () => {
 
+  const handleSeeLive = () => {
+    window.location.href = projectData.demoLink;
+   
+  };
+
+  const handleSeeRepo = () => {
+    window.location.href = projectData.repoLink;
+  };
+
   const { projectData } = useProjectData();
   console.log(projectData);
 
@@ -73,11 +82,11 @@ const ProjectInfo = () => {
            
         <p>{projectData.fullDescription}</p>
           <div className="btns">
-        <button type="button" className="btn-see-more live">
+        <button type="button" className="btn-see-more live" onClick={handleSeeLive}>
           See live
           <CgLivePhoto className="live-icon" />
         </button>
-        <button type="button" className="btn-see-more git">
+        <button type="button" className="btn-see-more git" onClick={handleSeeRepo}>
           See GitRepo
           <BsGithub className="git-icon" />
         </button>
