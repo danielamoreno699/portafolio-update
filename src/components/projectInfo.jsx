@@ -1,6 +1,5 @@
 import { BsGithub } from 'react-icons/bs';
 import { CgLivePhoto } from 'react-icons/cg';
-import { useProjectData } from '../context/contextManager';
 import '../styles/projectInfo.css'
 import { useParams } from 'react-router-dom';
 import projectsTop from '../helper/topproj'
@@ -33,15 +32,17 @@ const ProjectInfo = () => {
   }
 
   const handleSeeLive = () => {
-    window.location.href = projectData.demoLink;
+    window.open(projectData.demoLink, '_blank');
+ 
    
   };
 
   const handleSeeRepo = () => {
-    window.location.href = projectData.repoLink;
+    window.open(projectData.repoLink, '_blank');
+   
   };
 
-  // const { projectData } = useProjectData();
+
   console.log(projectData);
 
   return (

@@ -16,12 +16,13 @@ const CardItem = ({ card }) => {
   };
 
   const handleSeeLive = () => {
-    window.location.href = card.demoLink;
+    window.open(card.demoLink, '_blank');
+    
    
   };
 
   const handleSeeRepo = () => {
-    window.location.href = card.repoLink;
+    window.open(card.repoLink, '_blank');
   };
 
   return (

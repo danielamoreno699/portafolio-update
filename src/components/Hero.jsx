@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable react/no-unescaped-entities */
 import '../styles/hero.css'
 import 'boxicons'
@@ -33,9 +34,9 @@ const Hero = () => {
 
         <div className='home-sci'>
           
-            <a href="https://twitter.com/Daniela38932450"><box-icon name='twitter' type='logo' className="logo"></box-icon></a>
-            <a href="https://github.com/danielamoreno699"><box-icon name='github' type='logo' className="logo" ></box-icon></a>
-            <a href="https://www.linkedin.com/in/daniela-moreno-06a139124/"><box-icon name='linkedin' type='logo' className="logo"></box-icon></a>
+            <a href="https://twitter.com/Daniela38932450" target="_blank"><box-icon name='twitter' type='logo' className="logo"></box-icon></a>
+            <a href="https://github.com/danielamoreno699"  target="_blank"><box-icon name='github' type='logo' className="logo" ></box-icon></a>
+            <a href="https://www.linkedin.com/in/daniela-moreno-06a139124/"  target="_blank"><box-icon name='linkedin' type='logo' className="logo"></box-icon></a>
 
 
 
