@@ -34,9 +34,15 @@ const HighProfile = () => {
             <Card className='card-cont' key={index} onClick={() => handleClick(project)}>
               <Card.Img className='card-img' variant="left" src={project.image} alt='img' />
               <Card.Body className='card-body-profile'>
-                <Card.Title className='profile-title' onClick={() => handleClick(project)}>{project.name}, click me</Card.Title>
+                <Card.Title className='profile-title' onClick={() => handleClick(project)}>
+                  {project.name}
+                  
+                  <span>(click me)</span>
+                </Card.Title> 
+              
                 <Card.Text className='profile-text'>
                   {project.description}
+                  
                 </Card.Text>
 
             <div className='lang-container'>
