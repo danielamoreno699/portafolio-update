@@ -20,7 +20,7 @@ const Hero = () => {
 
             <h1>Hi I'm Daniela</h1>
             <h3>I'm a software developer! </h3>
-              <p>I can help you build a product, feature or website look through some of my work and experience! if you like what you see and have a project you need coded, dont hesitate to contact me</p>  
+              <p>I can help you build a product, feature or website look through some of my work and experience!. If you like what you see and have a project you need coded, don't hesitate to contact me.</p>  
               <div className="btn-box">
               <a href="#contact-me" onClick={() => scrollToSection('projects')}>Contact me</a>
            
