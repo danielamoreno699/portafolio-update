@@ -181,22 +181,18 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      
-      /* align-items: flex-start; */
+
   }
     .card-cont{
       display: flex;
       flex-direction: column;
       height: 100%;
-      /* margin: 0; */
       width: 80%;
     }
 
    
 
     .card-img {
-      /* width: 100%; */
-      /* height: 100%; */
       object-fit: cover;
       flex: 1;
       border-radius: 10px;
@@ -225,8 +221,6 @@
       margin: 1rem;
       gap: 0;
       padding: 0;
-      /* gap: 1rem; */
-      /* padding: 0; */
   }
 
   .swiper {
