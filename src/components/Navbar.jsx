@@ -90,7 +90,7 @@ import { AiFillBackward } from "react-icons/ai";
             About 
           </a>
           <a href="#projects" onClick={() => scrollToSection('projects')}>Portfolio</a>
-            <a href="#">Contact me</a>
+            <a href="#contact-me" onClick={() => scrollToSection('projects')}>Contact me</a>
           </div>
         </div>
       </nav>

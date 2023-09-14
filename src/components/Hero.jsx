@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import '../styles/hero.css'
 import 'boxicons'
+import { Link } from 'react-router-dom';
 
 
 
@@ -16,8 +17,8 @@ const Hero = () => {
             <h3>I'm a software developer! </h3>
               <p>I can help you build a product, feature or website look through some of my work and experience! if you like what you see and have a project you need coded, dont hesitate to contact me</p>  
               <div className="btn-box">
-            <a href="#">hire me</a>
-            <a href="#">lets talk</a>
+            <Link to="#">hire me</Link>
+           
         </div>
     </div>
     <div className='img-profile'>
