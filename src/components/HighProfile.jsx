@@ -37,7 +37,7 @@ const HighProfile = () => {
                 <Card.Title className='profile-title' onClick={() => handleClick(project)}>
                   {project.name}
                   
-                  <span>(click me)</span>
+           
                 </Card.Title> 
               
                 <Card.Text className='profile-text'>
@@ -54,9 +54,13 @@ const HighProfile = () => {
               </li>
             ))}
           </div>
-             
+          <button type="button" className="btn-see-more live" onClick={() => handleClick(project)}>
+              See project
+            
+            </button>
 
           </div>
+   
               </Card.Body>
             </Card>
           ))}

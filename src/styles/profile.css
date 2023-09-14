@@ -19,6 +19,13 @@
     /* z-index: -1; */
   }
 
+
+  .lang-container{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
   .card-profile{
     display: flex;
     flex-direction: column;
