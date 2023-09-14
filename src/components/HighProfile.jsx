@@ -31,10 +31,10 @@ const HighProfile = () => {
 
        <div className='card-profile'>
           {top.map((project, index) => (
-            <Card className='card-cont' key={index} onClick={() => handleClick(project)}>
+            <Card className='card-cont' key={index} >
               <Card.Img className='card-img' variant="left" src={project.image} alt='img' />
               <Card.Body className='card-body-profile'>
-                <Card.Title className='profile-title' onClick={() => handleClick(project)}>
+                <Card.Title className='profile-title' >
                   {project.name}
                   
            
