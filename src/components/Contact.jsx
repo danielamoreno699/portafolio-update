@@ -29,7 +29,7 @@ const Contact = () => {
           
            <a href="https://github.com/danielamoreno699"><box-icon name='github' type='logo' className="logo" ></box-icon></a>
            <a href="https://www.linkedin.com/in/daniela-moreno-06a139124/"><box-icon name='linkedin' type='logo' className="logo"></box-icon></a>
-            <a href="https://api.whatsapp.com/send?phone=+573002396725&text=Hello.%20Looking%20forward%20to%20your%20response%20and%20the%20possibility%20of%20working%20together.%20%20Best%20regards"><box-icon type='logo' name='whatsapp' ></box-icon></a>
+            <a href="https://api.whatsapp.com/send?phone=+573232885207&text=Hello.%20Looking%20forward%20to%20your%20response%20and%20the%20possibility%20of%20working%20together.%20%20Best%20regards"><box-icon type='logo' name='whatsapp' ></box-icon></a>
           
          </div>
           </div>
