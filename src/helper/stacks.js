@@ -12,21 +12,7 @@ import python from '../asset/images/technologies/python.png';
 
 
 const Stacks = [
-    {
-      name: "css",
-      img: css,
-      color: "orange",
-    },
-    {
-      name: "html",
-      img: html,
-      color: "yellow",
-    },
-    {
-      name: "javascript",
-      img: js,
-      color: "orange",
-    },
+   
     {
       name: "react",
       img: react,
@@ -68,6 +54,21 @@ const Stacks = [
       name: "python",
       img: python,
       color: "white",
+    },
+    {
+      name: "css",
+      img: css,
+      color: "orange",
+    },
+    {
+      name: "html",
+      img: html,
+      color: "yellow",
+    },
+    {
+      name: "javascript",
+      img: js,
+      color: "orange",
     },
   ];
   

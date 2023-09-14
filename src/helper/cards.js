@@ -3,19 +3,20 @@ import movies2 from '../asset/images/projects_imgs/movies2.png';
 import spaceX from '../asset/images/projects_imgs/spaceX.png';
 import stock from '../asset/images/projects_imgs/stock.png';
 import math from '../asset/images/projects_imgs/math-sc.png';
+import htmlProject from '../asset/images/projects_imgs/html-project.png';
 
 const projectDetailList = [
     {
       id: 0,
-      name: 'Bookstore',
-      description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      imageLink: bookstorereact3,
-      technologies: ['html', 'css', 'react', 'redux'],
+      name: 'Art exposition Event',
+      description: 'this project aims  to recreate a professional website for an event. ',
+      imageLink: htmlProject,
+      technologies: ['html', 'css', 'javascript'],
       role: 'FrontEnd Dev',
       company: 'Microverse',
       year: '2023',
-      repoLink: 'https://github.com/danielamoreno699/bookstore',
-      demoLink: 'https://comfy-unicorn-6d6cfd.netlify.app/Books',
+      repoLink: 'https://github.com/danielamoreno699/Capstone-Project',
+      demoLink: 'https://danielamoreno699.github.io/Capstone-Project/index.html',
     },
     {
       id: 1,
@@ -23,23 +24,23 @@ const projectDetailList = [
       description: 'PopcornPulse is a web app that uses Webpack, Jest, HTML, SCSS, and JavaScript. It fetches data from a movie API and displays the latest trendy movies. Users can like or leave comments on movies, with like and comment counts stored using another API',
       imageLink: movies2,
       technologies: ['html', 'css', 'javascript', 'Bootstrap'],
-      role: 'Full Stack Dev',
-      company: 'Facebook',
-      year: '2015',
-      repoLink: '#',
-      demoLink: '#',
+      role: 'FrontEnd Dev',
+      company: 'Microverse',
+      year: '2023',
+      repoLink: 'https://github.com/danielamoreno699/Capstone-projectJs',
+      demoLink: 'https://wonderful-tulumba-37d181.netlify.app/',
     },
     {
       id: 2,
       name: 'Space X',
-      description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. ',
+      description: 'This project is a web application that focuses on rocket reservations and mission management. It allows users to reserve rockets for upcoming missions and provides a comprehensive overview of mission details. The application is built using React.js and Redux for state management ',
       imageLink: spaceX,
       technologies: ['html', 'css', 'React', 'Redux'],
       role: 'FrontEnd Dev',
       company: 'Microverse',
       year: '2023',
-      repoLink: '#',
-      demoLink: '#',
+      repoLink: 'https://github.com/danielamoreno699/space-x-project',
+      demoLink: 'https://grand-platypus-2cdfa7.netlify.app/',
     },
     {
       id: 3,
