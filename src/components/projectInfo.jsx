@@ -2,9 +2,11 @@ import { BsGithub } from 'react-icons/bs';
 import { CgLivePhoto } from 'react-icons/cg';
 import { useProjectData } from '../context/contextManager';
 import '../styles/projectInfo.css'
+import { useParams } from 'react-router-dom';
+import projectsTop from '../helper/topproj'
 
 
-
+import { useEffect, useState } from 'react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -14,6 +16,21 @@ import "swiper/css/scrollbar";
 
 
 const ProjectInfo = () => {
+  const { id } = useParams();
+  const [projectData, setProjectData] = useState(null);
+
+  useEffect(() => {
+    
+    const selectedProject = projectsTop.find((project) => project.id.toString() === id);
+
+    if (selectedProject) {
+      setProjectData(selectedProject);
+    }
+  }, [id]);
+
+  if (!projectData) {
+    return <div>Cargando datos...</div>;
+  }
 
   const handleSeeLive = () => {
     window.location.href = projectData.demoLink;
@@ -24,7 +41,7 @@ const ProjectInfo = () => {
     window.location.href = projectData.repoLink;
   };
 
-  const { projectData } = useProjectData();
+  // const { projectData } = useProjectData();
   console.log(projectData);
 
   return (
