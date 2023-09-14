@@ -11,7 +11,7 @@ import { AiFillBackward } from "react-icons/ai";
   const navigate = useNavigate();
 
   const onHandleNavigate = () => {
-    navigate(-2);
+    navigate('/');
   };
 
   const location = useLocation();
