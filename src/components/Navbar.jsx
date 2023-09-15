@@ -62,7 +62,7 @@ import { AiFillBackward } from "react-icons/ai";
      
       {isHome && (
         <>
-          <a href="#home" className="active">Home</a>
+          <a href="#home">Home</a>
           <a href="#about-skills">About</a>
           <a href="#projects">Portfolio</a>
           <a href="#contact-me">Contact me</a>
@@ -82,7 +82,7 @@ import { AiFillBackward } from "react-icons/ai";
         <div className="mobile-menu">
           <span className="close-nav" onClick={closeMobileMenu}>&times;</span>
           <div className="menu-items">
-            <a href="#" className="active">
+            <a href="#home-sec" onClick={() => scrollToSection('home-sec')}>
               Home
             </a>
             <a href="#about-skills" onClick={() => scrollToSection('about-skills')}>

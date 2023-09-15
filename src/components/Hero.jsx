@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     <>
 
-    <section id="home">
+    <section id="home-sec">
     <div className='home'>
     
     <div className="home-content">
