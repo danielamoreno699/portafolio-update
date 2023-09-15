@@ -15,6 +15,8 @@ const scrollToSection = (id) => {
 const Hero = () => {
   return (
     <>
+
+    <section id="home">
     <div className='home'>
     
     <div className="home-content">
@@ -43,6 +45,7 @@ const Hero = () => {
         </div>
         <div className="home-background"></div>
     </div>
+    </section>
        
         
 

@@ -62,7 +62,7 @@ import { AiFillBackward } from "react-icons/ai";
      
       {isHome && (
         <>
-          <a href="#" className="active">Home</a>
+          <a href="#home" className="active">Home</a>
           <a href="#about-skills">About</a>
           <a href="#projects">Portfolio</a>
           <a href="#contact-me">Contact me</a>
