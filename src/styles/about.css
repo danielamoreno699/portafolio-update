@@ -255,8 +255,9 @@
       box-shadow: none;
       background-color: white;
     }
-    .ul-about{
-      /* margin-left: 0; */
+
+    .container-about {
+       padding-top: 14rem;
     }
    
     
