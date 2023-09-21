@@ -264,7 +264,7 @@ background-color: #d7dde1;
   }
   
     .card-container {
-      perspective: 1000px; /* Set the perspective for 3D transformation */
+      perspective: 1000px; 
     }
     
     .card {
@@ -324,6 +324,10 @@ background-color: #d7dde1;
   .card:hover .card-content {
     opacity: 1;
     height: 100%; 
+  }
+
+  .wave{
+    display: none;
   }
   
   
